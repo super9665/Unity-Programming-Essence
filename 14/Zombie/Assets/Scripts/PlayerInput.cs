@@ -25,7 +25,7 @@ public class PlayerInput : MonoBehaviour {
             reload = false;
             return;
         }
-
+        // Debug.Log(move + ' ' + rotate);
         // move에 관한 입력 감지
         move = Input.GetAxis(moveAxisName);
         // rotate에 관한 입력 감지
